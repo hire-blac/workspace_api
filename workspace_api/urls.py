@@ -27,5 +27,5 @@ router.register(r'booked_days', views.BookedDayViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('workspace/', include('workspace.urls')),
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
 ]
